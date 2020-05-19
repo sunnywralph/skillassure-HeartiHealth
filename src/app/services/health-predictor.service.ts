@@ -11,7 +11,7 @@ export class HealthPredictorService {
 
   //Update the service value to return Result: 1, for Success Msg
   getHeartPredictorResult(data) {
-    return of({Result: 0, Status: 200});
+    return of({Result: 1, Status: 200});
     //return this.httpClient.post('http://15.206.14.87:5000/predict', data);
   }
 }
